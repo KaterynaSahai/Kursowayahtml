@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="obr.php" method="get">
+        <div>
+            <label for="login">Введите имя</label>
+            <input id="login" type="text" placeholder="имя">
+        </div>
+
+        <div>
+            <label for="password">Введите пароль</label>
+            <input id="password" type="password" placeholder="пароль">
+        </div>
+
+        <div>
+            <h6>Выберите пол:
+
+                <label for="male">Мужской</label>
+                <input type="radio" id="male" name="gender" value="male" />
+
+
+                <label for="female">Женский</label>
+                <input type="radio" id="female" name="gender" value="female" />
+            </h6>
+        </div>
+        <div>
+            <h6>Увидев капибару я:</h6>
+            <ul>
+                <li>
+                    <label for="drose">обниму ее</label>
+                    <input type="checkbox" name="drose" id="drose"/>
+                </li>
+                <li>
+                    <label for="goat">умру от счастья</label>
+                    <input type="checkbox" name="goat" id="goat"/>
+                </li>
+                <li>
+                    <label for="mj2">украду ее</label>
+                    <input type="checkbox" name="mj2" id="mj2"/>
+                </li>
+            </ul>
+            </div>
+        
+            <div>
+            <h6>Ваше любимое животное:
+            <select  name="">
+                <option >Капибара</option>
+                <option >Водосвинка</option>
+                <option >я не знаю что такое животное</option>
+            </select>
+        </h6>
+        </div>
+        
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div>
+        <input type="submit" value="Отправить"/>
+        </div>
+        
+        <button>
+            <a href="./K.html">Первая страница</a>
+        </button>
+        <button>
+            <a href="./K2.html">Вторая страница</a>
+        </button>
+        </form>
+        </body>
+        </html>

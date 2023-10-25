@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="obr.php" method="get">
+    <table border="1" cellpadding="20" cellspacing="10">
+        <thead>
+          <tr>
+            <th>Заголовок1</th>
+            <th>Заголовок2</th>
+            <th>Заголовок3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Капибара</td>
+            <td>Водосвинка</td>
+            <td>Няшка</td>
+          </tr>
+          <tr>
+            <td>Водосвинка</td>
+            <td>Няшка</td>
+            <td>Капибара</td>
+          </tr>
+          <tr>
+            <td>Няшка</td>
+            <td>Капибара</td>
+            <td>Водосвинка</td>
+          </tr>
+        </tbody>
+    </table>
+    <div>
+        <ol>
+            <li>Водосвиночка</li>
+            <li>Водосвинка</li>
+            <li>Водосвинка</li>
+            <li>Водосвинка</li>
+            <li>Водосвинка</li>
+        </ol>
+    </div>
+    <div>
+    <img src="https://media.tinkoff.ru/stories/media/images/744dcd9447deeb0a8f10e024eb8616e5.png" alt="" width="1200" height="630" >
+    </div>
+    <button>
+        <a href="./K.html">Первая страница</a>
+    </button>
+    <button>
+        <a href="./K3.html">Третья страница</a>
+    </button>
+</form>
+</body>
+</html>
